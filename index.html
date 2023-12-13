@@ -1,12 +1,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information</title>
     <link rel="stylesheet" href="final.css">
 </head>
 <body>
-    <h2>weather api</h2>
-    <script src="final.js"></script>
+
+    <div class="container">
+        <h1>Weather Information</h1>
+
+        <label for="countryInput">Search for a Country:</label>
+        <input type="text" id="countryInput" placeholder="Enter country name">
+
+        <button id="searchBtn">Search</button>
+
+        <div id="weatherData">
+            <!-- Weather data will be displayed here -->
+        </div>
+
+        <img src="canada.jpg" alt="Weather Image">
+
+        <p id="errorMessage" class="error-message"></p>
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
