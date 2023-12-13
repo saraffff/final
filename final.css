@@ -1,14 +1,15 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #123455;
-    color: #070b0e;
+    background-color: #5a8fc4;
+    color: #07080e;
     text-align: center;
+margin-top: 100px;
 }
 .container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #c9d1e0;
+    background-color: aliceblue;
     border-radius: 8px;
     box-shadow: 2px 2px  2px 5px rgba(0, 0, 0, 0.1);
     margin-top: 50px;
@@ -18,6 +19,7 @@ body {
     margin-right: 10px;
     border-radius: 6px;
     box-shadow: 1px 1px ;
+    color: black;
 
   }
   button {
@@ -25,6 +27,7 @@ body {
     cursor: pointer;
     box-shadow: 1px 1px ;
     border-radius: 6px;
+color:black;
   }
   
   #weatherInfo {
