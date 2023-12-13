@@ -13,3 +13,16 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 50px;
 }
+#weatherData {
+    margin-top: 20px;
+}
+
+img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 20px;
+}
