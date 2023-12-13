@@ -1,28 +1,29 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    color: #343a40;
+    background-color: #123455;
+    color: #070b0e;
     text-align: center;
 }
 .container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #c9d1e0;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 50px;
 }
-#weatherData {
+#searchInput {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    cursor: pointer;
+    
+  }
+  
+  #weatherInfo {
     margin-top: 20px;
-}
-
-img {
-    width: 100px;
-    margin-top: 10px;
-}
-
-.error-message {
-    color: #dc3545;
-    margin-top: 20px;
-}
+  }
