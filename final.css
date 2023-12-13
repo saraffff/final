@@ -21,16 +21,4 @@ body {
 
   }
   
-  button {
-    padding: 8px 15px;
-    cursor: pointer;
-    box-shadow: 1px 1px ;
-    border-radius: 6px;
-
-
-
-  }
-  
-  #weatherInfo {
-    margin-top: 20px;
-  }
+ 
